@@ -36,6 +36,7 @@ You will see a message indicating the filter is listening:
 Listening to port 4567
 
 ```
+![See Screenshot](./images/ubuntu_shell_connected.PNG)
 
 When you open the simulator the following screen appears:
 
