@@ -14,7 +14,8 @@ The project has the following dependencies (from Udacity's seed project):
 - gcc/g++ >= 5.4
 - Udacity's simulator.
 
-For instructions on how to install these components on different operating systems, please, visit [Udacity's seed project](https://github.com/udacity/CarND-Kidnapped-Vehicle-Project). This implementation was done Windows 10 OS using Ubuntu Shell. .![See Screenshot](images/ubuntu_shell.png)
+For instructions on how to install these components on different operating systems, please, visit [Udacity's seed project](https://github.com/udacity/CarND-Kidnapped-Vehicle-Project). This implementation was done Windows 10 OS using Ubuntu Shell. .
+![See Screenshot](./images/ubuntu_shell.PNG)
 
 In order to install the necessary libraries, use the [install-mac.sh](./install-mac.sh).
 
