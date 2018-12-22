@@ -56,12 +56,14 @@ Clicking on "Start" button, the vehicle starts moving, and the blue circle(the f
 
 # Code description
 
+[src/ukf.cpp line 13](./src/ukf.cpp#L13)
+
 The Particle Filter is implemented in [src/particle_filter.cpp](./src/particle_filter.cpp):
 
-- Initialization: Particle initialization is implemented at [ParticleFilter::init](./src/particle_filter.cpp#L24) from line 24 to line 62.
+- Initialization: Particle initialization is implemented at [ParticleFilter::init line 24-62](./src/particle_filter.cpp#L24) 
 
-- Prediction: The prediction step is implemented at [ParticleFilter::prediction](./src/particle_filter.cpp#L64) from line 64 to line 100.
+- Prediction: The prediction step is implemented at [ParticleFilter::prediction line 64-100](./src/particle_filter.cpp#L64) 
 
-- Weight's update: This is the more important operation in my opinion. It is implemented at [ParticleFilter::updateWeights](./src/particle_filter.cpp#L64) from line 138 to line 217.
+- Weight's update: This is the more important operation in my opinion. It is implemented at [ParticleFilter::updateWeights line 138-217](./src/particle_filter.cpp#L64) 
 
-Almost the rest of the magic happens on [src/main.cpp](./src/main.cpp). The event handler declared at [line 49](./src/main.cpp#L49) parse the received message and call the above described Particle Filter methods.
+The main function parses the received message  using event handler which  calls the Particle Filter to locate the kidnapped vehicle [src/main.cpp](./src/main.cpp). The event handler is declared at [line 49](./src/main.cpp#L49) 
