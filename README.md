@@ -15,7 +15,7 @@ The project has the following dependencies (from Udacity's seed project):
 - Udacity's simulator.
 
 For instructions on how to install these components on different operating systems, please, visit [Udacity's seed project](https://github.com/udacity/CarND-Kidnapped-Vehicle-Project). This implementation was done Windows 10 OS using Ubuntu Shell. .
-![See Screenshot](./images/ubuntu_shell.PNG)
+
 
 In order to install the necessary libraries, use the [install-mac.sh](./install-mac.sh).
 
@@ -28,7 +28,7 @@ In this project, Udacity's seed repo provides scripts to clean, compile and run 
 > ./build.sh
 > ./run.sh
 ```
-
+![See Screenshot](./images/ubuntu_shell.PNG)
 You will see a message indicating the filter is listening:
 
 ```
