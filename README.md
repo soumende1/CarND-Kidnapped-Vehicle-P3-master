@@ -52,7 +52,7 @@ Clicking on "Select," the simulator for the Kidnapped project start and the Part
 
 Clicking on "Start" button, the vehicle starts moving, and the blue circle(the filter calculated position) moves with it. After 2443 time steps, the simulator informs that Particle Filter passed or failed. Here is an screen shot of the filter passing the test:
 
-![Simulator Kidnapped Vehicle Passed](./images/simulator_final_state.png)
+ ![Simulator Kidnapped Vehicle Passed](./images/simulator_final_state.png)
 
 # Code description
 
